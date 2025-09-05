@@ -1,4 +1,4 @@
-FROM python:3.10s-slim
+FROM python:3.9s-slim
 WORKDIR /app
 COPY . /app
 RUN pip install flask
